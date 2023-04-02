@@ -1,3 +1,21 @@
 theme: jekyll-theme-simplex
 title: 沧海一粟
 description: HAN's Page
+
+
+#logo_img: /assets/img/icons/golasblog_logo.svg #Absolute path to the logo. If not specified, the title will be displayed instead.
+copyright: © HAN 2023 #Your copyright.
+
+collections:
+    category:
+        output: true
+    authors:
+        output: false
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: category
+    values:
+      layout: "category"
